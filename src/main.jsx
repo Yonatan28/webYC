@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import './scss/app.scss'
-import App from './pages/App'
+import './scss/themes/dark.scss'
+import Home from './pages/Home'
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 )
